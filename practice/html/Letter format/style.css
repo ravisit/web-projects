@@ -1,0 +1,33 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  font-weight:10px;
+  font-style:arial;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+main, article, footer, section {
+  padding: 4px;
+}
+#greet1 {
+   display:block;
+   float:right;
+}
+#greet2 {
+   padding-top:16%; 
+   padding-left:6px;   
+}
+
+#exo{
+	padding-left:25px;
+}

@@ -1,0 +1,58 @@
+What is CSS?
+CSS is a style sheet language. CSS is what you use to selectively style HTML elements.
+CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.
+
+--The href attribute of the <link> element needs to reference a file on your file system.
+--An internal stylesheet resides within an HTML document. To create an internal stylesheet, 
+  you place CSS inside a <style> element contained inside the HTML <head>.
+--Inline styles are CSS declarations that affect a single HTML element, contained within a style attribute.
+eg.
+ p {
+  color: red;
+}
+
+P - this is the selector(A selector targets HTML to apply styles to content). (A html element which is about to styled.)
+   a[title] { } -- attribute selector.
+   a[href="https://example.com"] { } -- attribute selector with presence of attribute value.
+   .class -- class selector
+   p -- html type selector.
+   #id -- id selector
+   a:hover { } -- :hover(pseudo-class) selector.
+   p::first-line { } -- ::first-line(pseudo-element) selector. (It will select only first line of text in the paragraph element.
+   article > p { } - select the direct child of <article> element. > is combinator selector
+   p + img {} - select the sibling img of p.
+   p ~ img {} - select the img anywhere after p.
+   * {
+    margin: 0;
+     }  --- universal selector. it will select everything in the document.
+    
+   
+   
+color:red; - This is declaration. It specifies which of the element's properties you want to style.
+color - is the property
+red - is the property value.
+
+
+---------------------------------------------
+padding -- the space around the content.
+border -- the solid line that is just outside the padding.
+margin -- the space around the outside of the border.
+
+margin: 0 auto; -- When you set two values on a property like margin or padding, the first value affects the
+		 element's top and bottom side (setting it to 0 in this case); the second value affects the left and right 
+		 side. (Here, auto is a special value that divides the available horizontal space evenly between left and right).
+
+Styling based on state:-
+
+a:link{
+  color:pink;
+}
+a:visited{
+color: green;
+}
+a:hover{
+text-decoration:none;
+}
+-------------------------------------------------
+
+!important changes the way the cascade normally works.

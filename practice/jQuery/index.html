@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+	<style>
+	  #flip,#panel,#flip1,#panel1,#flip2,#panel2 {
+	   padding:5px;
+	   text-align:center;
+	   background-color:#e5eecc;
+	   border:solid 1px #c3c3c3;
+	  }
+	  
+	  #panel {
+	  padding:50px;
+	  display:none;
+	  }
+	  #panel1,#panel2 {
+	  padding:50px;
+	  }
+	</style>
+        
+      <script src="jquery.js"></script>
+      <script src="syntax.js"></script>
+      <script src="selector.js"></script>
+      <script src="event.js"></script>
+      <script src="effects.js"></script>
+	  <script src="jqueryHTML.js"></script>	  
+    </head>
+    <body>
+	<h2>This is a heading</h2>
+	Name:<input type="text" class="field"/>
+	Email:<input type="email" class="field"/>
+	<div>
+	   <br>
+	   <button class='btn1e'>Stop sliding</button>
+	   <div id="flip">Click to slide down panel</div>
+	   <div id="panel">Welcome to jQuery practice page</div>
+	</div>
+	<div>
+	   <br>
+	   <div id="flip1">Click to slide up panel</div>
+	   <div id="panel1">Welcome to jQuery practice page</div>
+	</div>
+	<div>
+	   <br>
+	   <div id="flip2">Click to slide up/down panel</div>
+	   <div id="panel2">Welcome to jQuery practice page</div>
+	</div>
+	<div>
+	<br>
+	<div id="chain">jQuery is fun!</div>
+	<button class="btnChain">Click me</button>
+	</div>
+	<div><br>
+	<button class="btn1a">Start Animation</button><br>
+	<div id="ani" style="width:60px;height:60px;background-color:orange;position:relative;"></div>
+	</div>
+	<div><br>
+	<button class="btn1b">Start Animation</button><br>
+	<div id="ani1" style="width:60px;height:60px;background-color:orange;position:relative;"></div>
+	</div>
+	<div><br>
+	<button class="btn1c">Start Animation</button><br>
+	<div id="ani2" style="width:60px;height:60px;background-color:orange;position:relative;"></div>
+	</div>
+	<div><br>
+	<button class="btn1d">Start Animation</button><br>
+	<div id="ani3" style="width:160px;height:80px;background-color:orange;position:relative;">Hello</div>
+	</div>
+	
+    <div>
+	<br />
+	<p class="intro">This is a paragraph.</p>
+	<button class="btn1">Hide</button>
+	<button class="btn2">show</button>
+	</div>
+	<p id="p1">This is another paragraph.</p>
+	<p id="p2">Click or move the mouse pointer over this paragraph.</p>
+	<span class="hide">If you click on me, I will disappear.</span>
+	<font class="hide">If you double-click on me, I will disappear.</font>
+	<button class="btn3">Hide</button><br />
+	<button class="btn4">hide/show P elements</button> 
+	<hr>
+	<p id='test'>This is some <b>bold</b> text in paragraph.</p>
+	<button class="btntext">Show text</button>
+	<button class="btnhtml">Show HTML</button>
+	<p>Name: <input typ="text" id="test1" value="Mickey Mouse"></p>
+	<button class="btnshow">Show value</button>
+	<p><a href="https://w3schools.com" id="w3s">w3schools.com</a></p>
+	<button class="btnhref">Show href value</button>
+	<p id="test12">This is a paragraph.</p>
+	<p id="test2">This is another paragraph.</p>
+
+	<p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+
+	<button id="btntest1">Set Text</button>
+	<button id="btntest2">Set HTML</button>
+	<button id="btntest3">Set Value</button>
+	<hr>
+     <div id="selectedById">
+	 Hi,
+	 </div>
+	 <div>
+	   <p>List#1</p>
+	   <ul>
+	    <li>coffee</li>
+		<li>tea</li>
+		<li>soup</li>
+	   </ul>
+	   <p>List#2</p>
+	   <ul>
+	    <li>coffee</li>
+		<li>tea</li>
+		<li>soup</li>
+	   </ul>
+	   
+	 </div>
+	 <hr>
+	 <button id="hideIt">Click me</button>
+	 <p class="selectedByClass">Hello,</p>
+	 <div>
+	    <h2>Let's see the tablular data</h2>
+	    <table border="1">
+		  <tr>
+			 <th>Company</th>
+			 <th>Country</th>
+		  </tr>
+		  <tr>
+			 <td>Alfreds Futterkiste</td>
+			 <td>Germany</td>
+		  </tr>
+		  <tr>
+			<td>Berglunds snabbköp</td>
+			<td>Sweden</td>
+	      </tr>
+		  <tr>
+			<td>Centro comercial Moctezuma</td>
+			<td>Mexico</td>
+		  </tr>
+		  <tr>
+			<td>Ernst Handel</td>
+			<td>Austria</td>
+		  </tr>
+		  <tr>
+			<td>Island Trading</td>
+			<td>UK</td>
+		  </tr>
+		</table>
+		<br>
+	    <input type="button" name="table" value="Click me"></input> 
+	 </div>
+     <hr>
+	 <br>
+	 <button class="btn5">FadeIn</button><br>&nbsp;
+	 <div id="f1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+	 <div id="f2" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+	 <div id="f3" style="width:80px;height:80px;display:none;background-color:green;"></div>
+	 
+	 <br>
+	 <button class="btn6">FadeOut</button><br>&nbsp;
+	 <div id="f4" style="width:80px;height:80px;background-color:red;"></div><br>
+	 <div id="f5" style="width:80px;height:80px;background-color:blue;"></div><br>
+	 <div id="f6" style="width:80px;height:80px;background-color:green;"></div>
+	 
+	 <br>
+	 <button class="btn7">FadeToggle</button><br>&nbsp;
+	 <div id="f7" style="width:80px;height:80px;background-color:red;"></div><br>
+	 <div id="f8" style="width:80px;height:80px;background-color:blue;"></div><br>
+	 <div id="f9" style="width:80px;height:80px;background-color:green;"></div>
+	 <br>
+	 <button class="btn8">FadeTo</button><br>&nbsp;
+	 <div id="f10" style="width:80px;height:80px;background-color:red;"></div><br>
+	 <div id="f11" style="width:80px;height:80px;background-color:blue;"></div><br>
+	 <div id="f12" style="width:80px;height:80px;background-color:green;"></div>
+	 
+	 <hr>
+	 <button id="hideItAll">Hide All</button>
+     <input type="button" name="hideMe" value="Hide me"></input> 
+       
+    </body>
+</html>

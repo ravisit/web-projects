@@ -1,0 +1,106 @@
+body {
+    background-image: url('/img/s680x959.jpg');
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .left {
+    
+    /* to make left  */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    /* to make left  */
+ }
+ .left img {
+    width: 100px;
+    opacity: 0.7;
+    border: 2px solid darkgrey;
+ }
+ .left div {
+     line-height:12px ;
+     font-size: 17px;
+     text-align: center;
+ }
+
+ .mid {
+    
+    /* to make center  */
+    display: block;
+    width:50%;
+    margin: 20px auto;
+    /* to make center  */
+ }
+
+ .right {
+    /* to make right  */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    /* to make right  */
+ }
+ .right input {
+     padding: 8px 6px;
+     margin: 10px;
+ }
+ .btn {
+     margin: 0px 9px;
+     padding: 4px 14px;
+     border: 2px solid grey;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ .navbar {
+    display: inline-block;
+    
+ }
+ .navbar li {
+     display: inline-block;
+     font-size: 25px;
+ }
+ .navbar li a {
+     text-decoration: none;
+     padding: 34px 24px;
+     color: white;
+ }
+ .navbar li a:hover, .navbar li a.active {
+     text-decoration: underline;
+     color: greenyellow;
+ }
+ section {
+     border: 2px solid white;
+     background-color: dimgray;
+     margin: 77px 54px;
+     padding: 67px 67px;
+     width: 33%;
+     border-radius: 6px;
+ }
+ .form-group input {
+     text-align: center;
+     display: block;
+     width:357px;
+     margin: 8px auto;
+     padding: 7px;
+     border: 2px solid black;
+     font-size: 22px;
+ }
+ form .btn{
+     display: block;
+     width: 23%;
+     margin: auto;
+ }
+ section h1{
+     text-align: center;
+     color: yellow;
+ }
