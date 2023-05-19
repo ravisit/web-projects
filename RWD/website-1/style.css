@@ -69,9 +69,20 @@ article h1{
     gap:7px;
     width: fit-content;
 }
-.article img{
+.article figure{
     width: 49.6%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.article figure img{
+    width: 100%;
+}
+
+.article figcaption{
+    background-color:#0099cc;
+    color: #fff;
+    text-align: center;
+    margin-top: -3.9px;
 }
 
 .footer{
