@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    padding: 0 1rem;
+    background-color: #bdbabf;
+}
+
+.container{
+    width: calc(100% - 3.2rem);
+    height: 100%;
+    background-color: #aba49e;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1.6rem;
+}
+
+.logo{
+    font-size: 5rem;
+    padding: 0 1rem;
+    color: #555;
+    text-transform: capitalize;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+.navbar{
+    width: calc(100% - 6rem);
+    height: 5vh;
+    background-color: #fff;
+    border: .2rem solid #ccc;
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar a, footer nav a{
+    font-size: 2rem;
+    color: #222;
+    margin: 0 4rem;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+}
+.navbar input{
+    width: 16rem;
+    height: 2.5rem;
+    border: .1rem solid #222;
+    font-size: 1rem;
+    margin-left: 40rem;
+    padding-left: .5rem;
+}
+
+.jumbotron{
+    width: calc(100% - 6rem);
+    height: 50rem;
+    margin: 0rem 3.05rem;
+    background-image: url('./images/nature.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-details{
+    width: calc(100% - 6rem);
+    margin: 0rem 3.05rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.image{
+    flex: 1;
+    width: 25rem;
+    padding: .2rem;
+    border: .2rem solid #ccc;
+    row-gap: .5rem;
+}
+
+.image img{
+    width: 100%;
+}
+
+.grp-img-details{
+    width: calc(100% - 6rem);
+    margin: 0rem 3.05rem;
+    margin-top: 1rem;
+    display: flex;
+    border: .2rem solid #ccc;
+}
+
+.image-wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.image-wrapper img{
+    width: 45%;
+}
+.image-text{
+    flex: 3;
+}
+.image-text h1{
+    font-size: 4rem;
+    margin: 1rem 0;
+    font-weight: 450;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+
+.image-text p{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+footer{
+    width: calc(100% - 6rem);
+    height: 7vh;
+    background-color: #fff;
+    border: .2rem solid #ccc;
+    margin: 1rem 3.05rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copy-right{
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    margin-left: .5rem;
+}
+
+footer nav a{
+    margin: 0 3rem;
+}
+
+
+
+
